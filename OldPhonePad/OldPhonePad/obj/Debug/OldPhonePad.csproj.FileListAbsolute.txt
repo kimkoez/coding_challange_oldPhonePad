@@ -1,0 +1,6 @@
+/Users/nayzin/Projects/OldPhonePad/OldPhonePad/bin/Debug/OldPhonePad.exe
+/Users/nayzin/Projects/OldPhonePad/OldPhonePad/bin/Debug/OldPhonePad.pdb
+/Users/nayzin/Projects/OldPhonePad/OldPhonePad/obj/Debug/OldPhonePad.csproj.CoreCompileInputs.cache
+/Users/nayzin/Projects/OldPhonePad/OldPhonePad/obj/Debug/OldPhonePad.exe
+/Users/nayzin/Projects/OldPhonePad/OldPhonePad/obj/Debug/OldPhonePad.pdb
+/Users/nayzin/Projects/OldPhonePad/OldPhonePad/obj/Debug/OldPhonePad.csproj.AssemblyReference.cache
