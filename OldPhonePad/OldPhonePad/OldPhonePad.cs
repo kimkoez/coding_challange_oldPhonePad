@@ -70,11 +70,12 @@ namespace OldPhonePad
             
         
         static void Main(string[] args)
-        { 
-            Console.WriteLine(OldPhonePad.ConvertInputToText("33#"));
-            Console.WriteLine(OldPhonePad.ConvertInputToText("227*#"));
-            Console.WriteLine(OldPhonePad.ConvertInputToText("4433555 555666#"));
-            Console.WriteLine(OldPhonePad.ConvertInputToText("8 88777444666*664#"));
+        {
+            Console.WriteLine(OldPhonePad.ConvertInputToText("222 2 22"));              //test case for output CAB
+            Console.WriteLine(OldPhonePad.ConvertInputToText("33#"));                   //test case for output E
+            Console.WriteLine(OldPhonePad.ConvertInputToText("227*#"));                 //test case for output B
+            Console.WriteLine(OldPhonePad.ConvertInputToText("4433555 555666#"));       //test case for output HELLO
+            Console.WriteLine(OldPhonePad.ConvertInputToText("8 88777444666*664#"));    //test case for output TURING
         }
     }
 }
