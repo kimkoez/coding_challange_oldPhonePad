@@ -11,5 +11,6 @@ This project is a C# implementation of an old phone keypad text message system. 
 - Build the solution
 - Run the application
 # Naming Conventions 
-- `class name` should be PascalCase (i.e. OldPhonePad)
-- `method name` should be PascalCase and should start with verb (i.e. ConvertInputToText)
+- `Class` should be PascalCase (i.e. OldPhonePad)
+- `Method` should be PascalCase and should start with verb (i.e. ConvertInputToText)
+- `Variable` should be camelCase (i.e. input,output,pointer)
