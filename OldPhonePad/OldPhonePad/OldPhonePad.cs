@@ -50,11 +50,20 @@ namespace OldPhonePad
                     }
                 }
                 //checking the indexed character to *
-                else if(input[index]=='*')
+                else if (input[index] == '*')
                 {
                     pointer = 0;
-                    output = output.Substring(0, output.Length-1); //removing the last character from the output string 
-                 }
+                    if (output.Length > 0)
+                    {
+                        output = output.Substring(0, output.Length - 1);//removing the last character from the output string
+                    }
+
+                    else                                                //if the * count greater than the output string 
+                    {
+                        output += "";                                   //the system will work but return blank string
+                        break;
+                    }
+                }
                 //checking the indexed character to #
                 else if (input[index] == '#')
                 {
@@ -76,6 +85,7 @@ namespace OldPhonePad
             Console.WriteLine(OldPhonePad.ConvertInputToText("227*#"));                 //test case for output B
             Console.WriteLine(OldPhonePad.ConvertInputToText("4433555 555666#"));       //test case for output HELLO
             Console.WriteLine(OldPhonePad.ConvertInputToText("8 88777444666*664#"));    //test case for output TURING
+            Console.WriteLine(OldPhonePad.ConvertInputToText("88********"));            //test case for multiple * keypress
         }
     }
 }
